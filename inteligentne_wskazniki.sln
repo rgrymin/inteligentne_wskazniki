@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_auto_ptr", "inteligentne_wskazniki\inteligentne_wskazniki.vcxproj", "{82379AE0-C10A-4BE1-B352-08E7A4DB38D6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_auto_ptr_ScislaWlasnosc", "inteligentne_wskazniki\inteligentne_wskazniki.vcxproj", "{82379AE0-C10A-4BE1-B352-08E7A4DB38D6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_unique_ptr", "unique_ptr\unique_ptr.vcxproj", "{7783720B-37FE-434F-B5CE-5BC52400F60F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_unique_ptr_move", "unique_ptr\unique_ptr.vcxproj", "{7783720B-37FE-434F-B5CE-5BC52400F60F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_shared_ptr", "boost_shared_ptr\boost_shared_ptr.vcxproj", "{89645D1F-5866-44BF-A545-EE1719CF5706}"
 EndProject
@@ -12,6 +12,16 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_weak_ptr", "boost_weak_ptr\boost_weak_ptr.vcxproj", "{731EC32D-AADF-4C14-9CCC-FA3A13C5A578}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_intrusive_ptr", "boost_intrusive_ptr\boost_intrusive_ptr.vcxproj", "{2D586CD6-5D80-41B9-8C89-BAFED79AB665}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_auto_ptr_ExceptionSafe", "cpp_auto_ptr_ThreadSafe\cpp_auto_ptr_ThreadSafe.vcxproj", "{9CCE47D6-B543-433C-8A37-25A686E98824}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_auto_ptr_kopiowanieStalegoObiektu", "cpp_auto_ptr_kopiowanieStalegoObiektu\cpp_auto_ptr_kopiowanieStalegoObiektu.vcxproj", "{7518DE29-D3BB-449E-A027-8B325B20EA2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_unique_ptr_release", "cpp_unique_ptr_release\cpp_unique_ptr_release.vcxproj", "{B6758A0E-FC13-4C76-9177-C76AE455921B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_unique_ptr_swap", "cpp_unique_ptr_swap\cpp_unique_ptr_swap.vcxproj", "{1C108D22-FE7A-4414-8E0D-4FBEE7975770}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_shared_ptr_unnamed", "boost_shared_ptr_unnamed\boost_shared_ptr_unnamed.vcxproj", "{120643F3-6EAF-4873-B2B7-6E7B042D33E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +53,26 @@ Global
 		{2D586CD6-5D80-41B9-8C89-BAFED79AB665}.Debug|Win32.Build.0 = Debug|Win32
 		{2D586CD6-5D80-41B9-8C89-BAFED79AB665}.Release|Win32.ActiveCfg = Release|Win32
 		{2D586CD6-5D80-41B9-8C89-BAFED79AB665}.Release|Win32.Build.0 = Release|Win32
+		{9CCE47D6-B543-433C-8A37-25A686E98824}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9CCE47D6-B543-433C-8A37-25A686E98824}.Debug|Win32.Build.0 = Debug|Win32
+		{9CCE47D6-B543-433C-8A37-25A686E98824}.Release|Win32.ActiveCfg = Release|Win32
+		{9CCE47D6-B543-433C-8A37-25A686E98824}.Release|Win32.Build.0 = Release|Win32
+		{7518DE29-D3BB-449E-A027-8B325B20EA2B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7518DE29-D3BB-449E-A027-8B325B20EA2B}.Debug|Win32.Build.0 = Debug|Win32
+		{7518DE29-D3BB-449E-A027-8B325B20EA2B}.Release|Win32.ActiveCfg = Release|Win32
+		{7518DE29-D3BB-449E-A027-8B325B20EA2B}.Release|Win32.Build.0 = Release|Win32
+		{B6758A0E-FC13-4C76-9177-C76AE455921B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B6758A0E-FC13-4C76-9177-C76AE455921B}.Debug|Win32.Build.0 = Debug|Win32
+		{B6758A0E-FC13-4C76-9177-C76AE455921B}.Release|Win32.ActiveCfg = Release|Win32
+		{B6758A0E-FC13-4C76-9177-C76AE455921B}.Release|Win32.Build.0 = Release|Win32
+		{1C108D22-FE7A-4414-8E0D-4FBEE7975770}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C108D22-FE7A-4414-8E0D-4FBEE7975770}.Debug|Win32.Build.0 = Debug|Win32
+		{1C108D22-FE7A-4414-8E0D-4FBEE7975770}.Release|Win32.ActiveCfg = Release|Win32
+		{1C108D22-FE7A-4414-8E0D-4FBEE7975770}.Release|Win32.Build.0 = Release|Win32
+		{120643F3-6EAF-4873-B2B7-6E7B042D33E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{120643F3-6EAF-4873-B2B7-6E7B042D33E9}.Debug|Win32.Build.0 = Debug|Win32
+		{120643F3-6EAF-4873-B2B7-6E7B042D33E9}.Release|Win32.ActiveCfg = Release|Win32
+		{120643F3-6EAF-4873-B2B7-6E7B042D33E9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

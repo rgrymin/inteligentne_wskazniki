@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{82379AE0-C10A-4BE1-B352-08E7A4DB38D6}</ProjectGuid>
     <RootNamespace>inteligentne_wskazniki</RootNamespace>
-    <ProjectName>cpp_auto_ptr</ProjectName>
+    <ProjectName>cpp_auto_ptr_ScislaWlasnosc</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -65,6 +65,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

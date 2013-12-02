@@ -11,9 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7783720B-37FE-434F-B5CE-5BC52400F60F}</ProjectGuid>
-    <RootNamespace>unique_ptr</RootNamespace>
-    <ProjectName>cpp_unique_ptr_move</ProjectName>
+    <ProjectGuid>{B6758A0E-FC13-4C76-9177-C76AE455921B}</ProjectGuid>
+    <RootNamespace>cpp_unique_ptr_release</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
